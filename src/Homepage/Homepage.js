@@ -1,10 +1,12 @@
 import React from 'react';
+import Chartjs from '../Chartjs';
+import D3Chart from '../D3ChartComponent';
 
 function Homepage() {
   return (
-    <main class="center" id="main">
+    <main className="center" id="main">
 
-    <div class="page-area">
+    <div className="page-area">
 
         <article>
             <h1>Stay on track</h1>
@@ -64,15 +66,25 @@ function Homepage() {
         </article>
 
         <article>
-            <h1>Chart</h1>
-            <p>
-                <canvas id="myChart" width="400" height="400"></canvas>
-            </p>
+            <h1>Chartjs</h1>
+                <Chartjs/>         
         </article>
+
+        <article>
+            <h1>D3JS</h1>
+                <D3Chart/>
+        </article>
+
+        
 
     </div>
 
+
 </main>
+
+
+
+
   );
 }
 

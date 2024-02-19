@@ -408,7 +408,7 @@ nav {
 .hero {
   height: 350px;
   background-color: #b4c6f0;
-  background-image: url('/Users/matthewlewis/dev/personal-budget-react/public/bg.png');
+  background-image: url('../public/bg.png');
   background-size: 400px;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -474,6 +474,11 @@ footer {
   max-width: 340px;
   text-align: justify;
   margin: 20px;
+}
+
+.chart-con {
+  width: 400px;
+  height: 400px;
 }
 
 @media screen and (min-width: 768px) {
